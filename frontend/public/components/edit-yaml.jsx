@@ -17,7 +17,7 @@ import { getBadgeFromType, Shortcut, ShortcutTable } from '@console/shared';
 import { connectToFlags } from '../reducers/features';
 import { errorModal } from './modals';
 import { Firehose, checkAccess, history, Loading, resourceObjPath } from './utils';
-import { FLAGS, ALL_NAMESPACES_KEY } from '../const';
+import { FLAGS, ALL_NAMESPACES_KEY } from '@console/shared/src/constants';
 import {
   referenceForModel,
   k8sCreate,

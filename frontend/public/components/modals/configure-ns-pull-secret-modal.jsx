@@ -8,7 +8,7 @@ import { k8sPatch, k8sCreate } from '../../module/k8s';
 import { SecretModel } from '../../models';
 import { createModalLauncher, ModalTitle, ModalBody, ModalSubmitFooter } from '../factory/modal';
 import { PromiseComponent, ResourceIcon } from '../utils';
-import { CONST } from '../../const';
+import { CONST } from '@console/shared/src/constants';
 
 const parseExisitingPullSecret = (pullSecret) => {
   let invalidData = false;

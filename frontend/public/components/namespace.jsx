@@ -51,7 +51,7 @@ import {
   KEYBOARD_SHORTCUTS,
   NAMESPACE_LOCAL_STORAGE_KEY,
   FLAGS,
-} from '../const';
+} from '@console/shared/src/constants';
 import { featureReducerName, flagPending, connectToFlags } from '../reducers/features';
 import { setFlag } from '../actions/features';
 import { OpenShiftGettingStarted } from './start-guide';

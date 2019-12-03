@@ -6,7 +6,7 @@ import { NamespaceModel, ProjectRequestModel, NetworkPolicyModel } from '../../m
 import { createModalLauncher, ModalTitle, ModalBody, ModalSubmitFooter } from '../factory/modal';
 import { Dropdown, history, PromiseComponent, resourceObjPath, SelectorInput } from '../utils';
 import { setFlag } from '../../actions/features';
-import { FLAGS } from '../../const';
+import { FLAGS } from '@console/shared/src/constants';
 
 const allow = 'allow';
 const deny = 'deny';

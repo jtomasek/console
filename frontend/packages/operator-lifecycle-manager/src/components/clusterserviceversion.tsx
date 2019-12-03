@@ -25,7 +25,7 @@ import {
   TableData,
   MultiListPage,
 } from '@console/internal/components/factory';
-import { ALL_NAMESPACES_KEY } from '@console/internal/const';
+import { ALL_NAMESPACES_KEY } from '@console/shared/src/constants';
 import { withFallback } from '@console/internal/components/utils/error-boundary';
 import {
   modelFor,

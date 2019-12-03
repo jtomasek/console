@@ -5,7 +5,7 @@ import * as _ from 'lodash-es';
 
 import { OAuthModel } from '../models';
 import { userStateToProps } from '../reducers/ui';
-import { KUBE_ADMIN_USERNAME } from '../const';
+import { KUBE_ADMIN_USERNAME } from '@console/shared/src/constants';
 import { resourcePathFromModel } from './utils/resource-link';
 
 const oAuthResourcePath = resourcePathFromModel(OAuthModel, 'cluster');

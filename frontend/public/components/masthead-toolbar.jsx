@@ -22,7 +22,7 @@ import classNames from 'classnames';
 
 import * as UIActions from '../actions/ui';
 import { connectToFlags, flagPending } from '../reducers/features';
-import { FLAGS } from '../const';
+import { FLAGS } from '@console/shared/src/constants';
 import { authSvc } from '../module/auth';
 import { getOCMLink } from '../module/k8s';
 import { history, Firehose } from './utils';

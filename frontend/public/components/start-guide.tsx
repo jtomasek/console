@@ -7,7 +7,7 @@ import { Button } from '@patternfly/react-core';
 import { createProjectMessageStateToProps } from '../reducers/ui';
 import { Disabled, HintBlock, ExternalLink, openshiftHelpBase, LinkifyExternal } from './utils';
 import { connectToFlags } from '../reducers/features';
-import { FLAGS } from '../const';
+import { FLAGS } from '@console/shared/src/constants';
 import { ProjectModel, RoleModel, StorageClassModel } from '../models';
 import { createProjectModal } from './modals/create-namespace-modal';
 

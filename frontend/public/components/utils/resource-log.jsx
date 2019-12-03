@@ -14,7 +14,7 @@ import { LineBuffer } from './line-buffer';
 import * as screenfull from 'screenfull';
 import { k8sGet, k8sList } from '@console/internal/module/k8s';
 import { ConsoleExternalLogLinkModel, ProjectModel } from '@console/internal/models';
-import { FLAGS } from '../../const';
+import { FLAGS } from '@console/shared/src/constants';
 import { connectToFlags } from '../../reducers/features';
 
 export const STREAM_EOF = 'eof';

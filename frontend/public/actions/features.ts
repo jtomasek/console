@@ -14,7 +14,7 @@ import { coFetchJSON } from '../co-fetch';
 import { MonitoringRoutes } from '../reducers/monitoring';
 import { setMonitoringURL } from './monitoring';
 import { setClusterID, setConsoleLinks, setCreateProjectMessage, setUser } from './ui';
-import { FLAGS } from '../const';
+import { FLAGS } from '@console/shared/src/constants';
 
 export enum ActionType {
   SetFlag = 'setFlag',

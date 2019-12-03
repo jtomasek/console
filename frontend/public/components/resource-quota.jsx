@@ -22,7 +22,7 @@ import {
   FieldLevelHelp,
 } from './utils';
 import { connectToFlags, flagPending } from '../reducers/features';
-import { FLAGS } from '../const';
+import { FLAGS } from '@console/shared/src/constants';
 import { GaugeChart } from './graphs/gauge';
 import { LoadingBox } from './utils/status-box';
 import { referenceForModel } from '../module/k8s';

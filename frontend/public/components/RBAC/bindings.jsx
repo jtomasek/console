@@ -30,7 +30,7 @@ import {
 } from '../utils';
 import { isSystemRole } from './index';
 import { connectToFlags, flagPending } from '../../reducers/features';
-import { FLAGS } from '../../const';
+import { FLAGS } from '@console/shared/src/constants';
 
 const bindingKind = (binding) =>
   binding.metadata.namespace ? 'RoleBinding' : 'ClusterRoleBinding';

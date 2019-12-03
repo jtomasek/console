@@ -27,7 +27,7 @@ import {
   getOCMLink,
   K8sResourceKind,
 } from '../../../../module/k8s';
-import { FLAGS } from '../../../../const';
+import { FLAGS } from '@console/shared/src/constants';
 import { flagPending, featureReducerName } from '../../../../reducers/features';
 import { FirehoseResource, ExternalLink } from '../../../utils';
 import { RootState } from '../../../../redux';

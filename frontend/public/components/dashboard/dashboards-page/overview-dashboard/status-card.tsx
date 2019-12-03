@@ -43,7 +43,7 @@ import {
 import { ClusterVersionModel } from '../../../../models';
 import { clusterUpdateModal } from '../../../modals/cluster-update-modal';
 import { RootState } from '../../../../redux';
-import { FLAGS } from '../../../../const';
+import { FLAGS } from '@console/shared/src/constants';
 
 const getSubsystems = (flags: FlagsObject, k8sModels: ImmutableMap<string, K8sKind>) =>
   plugins.registry

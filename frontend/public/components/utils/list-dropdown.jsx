@@ -6,7 +6,7 @@ import { Alert } from '@patternfly/react-core';
 
 import { Dropdown, Firehose, LoadingInline, ResourceName } from './';
 import { connectToFlags, flagPending } from '../../reducers/features';
-import { FLAGS } from '../../const';
+import { FLAGS } from '@console/shared/src/constants';
 
 class ListDropdown_ extends React.Component {
   constructor(props) {

@@ -13,7 +13,7 @@ import {
 } from '../../module/k8s';
 import { connectToModel } from '../../kinds';
 import { connectToFlags, FlagsObject } from '../../reducers/features';
-import { FLAGS } from '../../const';
+import { FLAGS } from '@console/shared/src/constants';
 
 const unknownKinds = new Set();
 

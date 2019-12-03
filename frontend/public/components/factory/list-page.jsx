@@ -6,7 +6,7 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { Button } from '@patternfly/react-core';
 
-import { KEYBOARD_SHORTCUTS } from '../../const';
+import { KEYBOARD_SHORTCUTS } from '@console/shared/src/constants';
 import { filterList } from '../../actions/k8s';
 import { CheckBoxes, storagePrefix } from '../row-filter';
 import { ErrorPage404, ErrorBoundaryFallback } from '../error';

@@ -9,7 +9,7 @@ import {
   ALL_NAMESPACES_KEY,
   LAST_NAMESPACE_NAME_LOCAL_STORAGE_KEY,
   LAST_PERSPECTIVE_LOCAL_STORAGE_KEY,
-} from '../const';
+} from '@console/shared/src/constants';
 import { K8sResourceKind, PodKind } from '../module/k8s';
 import { allModels } from '../module/k8s/k8s-models';
 import { detectFeatures, clearSSARFlags } from './features';

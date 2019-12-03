@@ -12,7 +12,7 @@ import {
   PodControllerOverviewItem,
   OverviewItem,
 } from '@console/shared';
-import { KEYBOARD_SHORTCUTS } from '../../const';
+import { KEYBOARD_SHORTCUTS } from '@console/shared/src/constants';
 import { K8sResourceKind } from '../../module/k8s';
 import * as UIActions from '../../actions/ui';
 import {

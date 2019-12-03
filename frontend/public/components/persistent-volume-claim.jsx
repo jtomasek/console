@@ -6,7 +6,7 @@ import * as classNames from 'classnames';
 import { Status } from '@console/shared';
 import { connectToFlags } from '../reducers/features';
 import { Conditions } from './conditions';
-import { FLAGS } from '../const';
+import { FLAGS } from '@console/shared/src/constants';
 import { DetailsPage, ListPage, Table, TableRow, TableData } from './factory';
 import {
   Kebab,
