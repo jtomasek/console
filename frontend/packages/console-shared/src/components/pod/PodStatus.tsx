@@ -4,7 +4,7 @@ import { ChartDonut } from '@patternfly/react-charts';
 import { Tooltip } from '@patternfly/react-core';
 import { ExtPodKind } from '../../types';
 import { calculateRadius, podStatus, getPodStatus } from '../../utils';
-import { podColor, AllPodStatus } from '../../constants';
+import { podColor, AllPodStatus } from '../../constants/pod';
 import './PodStatus.scss';
 
 const ANIMATION_DURATION = 350;

@@ -1,6 +1,6 @@
 import { DeploymentKind, K8sResourceKind, PodKind, PodPhase } from '@console/internal/module/k8s';
 import { FirehoseResult } from '@console/internal/components/utils';
-import { AllPodStatus } from '../constants';
+import { AllPodStatus } from '../constants/pod';
 
 export interface PodDataResources {
   replicationControllers: FirehoseResult;

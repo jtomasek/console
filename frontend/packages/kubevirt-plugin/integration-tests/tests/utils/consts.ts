@@ -1,4 +1,3 @@
-export const DASH = '-';
 export const { STORAGE_CLASS = 'rook-ceph-block' } = process.env;
 
 // TIMEOUTS

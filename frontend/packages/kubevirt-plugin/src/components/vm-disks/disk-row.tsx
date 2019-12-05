@@ -6,7 +6,8 @@ import {
   KebabOption,
   LoadingInline,
 } from '@console/internal/components/utils';
-import { dimensifyRow, getDeletetionTimestamp, DASH } from '@console/shared';
+import { dimensifyRow, getDeletetionTimestamp } from '@console/shared';
+import { DASH } from '@console/shared/src/constants';
 import { TemplateModel } from '@console/internal/models';
 import { deleteDeviceModal, DeviceType } from '../modals/delete-device-modal';
 import { VMLikeEntityKind } from '../../types';

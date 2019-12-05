@@ -1,5 +1,5 @@
 import { K8sResourceKind, PodKind, RouteKind } from '@console/internal/module/k8s';
-import { DEPLOYMENT_STRATEGY } from '../constants';
+import { DEPLOYMENT_STRATEGY } from '../constants/resource';
 import { OverviewItemAlerts, PodControllerOverviewItem } from './pod';
 
 export type BuildConfigOverviewItem = K8sResourceKind & {
