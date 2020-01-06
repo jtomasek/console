@@ -12,7 +12,7 @@ import {
 } from '@console/internal/components/dashboard/with-dashboard-resources';
 import { getInstantVectorStats } from '@console/internal/components/graphs/utils';
 import { featureReducerName } from '@console/internal/reducers/features';
-import { FLAGS } from '@console/shared/src/constants';
+import { FLAGS } from '@console/shared';
 import { RootState } from '@console/internal/redux';
 import * as UIActions from '@console/internal/actions/ui';
 import { getActivePerspective } from '@console/internal/reducers/ui';

@@ -4,7 +4,7 @@ import {
   ALL_NAMESPACES_KEY,
   ALL_APPLICATIONS_KEY,
   APPLICATION_LOCAL_STORAGE_KEY,
-} from '@console/shared/src/constants';
+} from '@console/shared';
 import { setActiveApplication } from '@console/internal/actions/ui';
 import { RootState } from '@console/internal/redux';
 import { getActiveNamespace, getActiveApplication } from '@console/internal/reducers/ui';

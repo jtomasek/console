@@ -1,6 +1,5 @@
 import * as React from 'react';
-import { getNodeRoles } from '@console/shared';
-import { DASH } from '@console/shared/src/constants';
+import { DASH, getNodeRoles } from '@console/shared';
 import { NodeKind } from '@console/internal/module/k8s';
 
 type NodeRolesProps = {

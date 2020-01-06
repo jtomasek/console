@@ -5,7 +5,7 @@ import { Helmet } from 'react-helmet';
 import * as classNames from 'classnames';
 import { ActionGroup, Button } from '@patternfly/react-core';
 
-import { ANNOTATIONS } from '@console/shared/src/constants';
+import { ANNOTATIONS } from '@console/shared';
 import {
   getImageForIconClass,
   getTemplateIcon,

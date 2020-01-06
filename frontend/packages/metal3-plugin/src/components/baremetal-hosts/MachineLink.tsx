@@ -1,6 +1,5 @@
 import * as React from 'react';
-import { getNamespace } from '@console/shared';
-import { DASH } from '@console/shared/src/constants';
+import { DASH, getNamespace } from '@console/shared';
 import { MachineModel } from '@console/internal/models';
 import { ResourceLink } from '@console/internal/components/utils';
 import { referenceForModel } from '@console/internal/module/k8s';

@@ -5,7 +5,13 @@ import * as React from 'react';
 import { connect } from 'react-redux';
 import { CSSTransition } from 'react-transition-group';
 import { Link } from 'react-router-dom';
-import { DEFAULT_GROUP_NAME, METRICS_POLL_INTERVAL } from '@console/shared/src/constants';
+import {
+  DEFAULT_GROUP_NAME,
+  METRICS_POLL_INTERVAL,
+  TransformResourceData,
+  OverviewItem,
+  getResourceList,
+} from '@console/shared';
 import { coFetchJSON } from '../../co-fetch';
 import { PROMETHEUS_TENANCY_BASE_PATH } from '../graphs';
 import { TextFilter } from '../factory';
@@ -17,7 +23,6 @@ import { ResourceOverviewPage } from './resource-overview-page';
 import { OverviewSpecialGroup } from './constants';
 import * as plugins from '../../plugins';
 import { OverviewCRD } from '@console/plugin-sdk';
-import { TransformResourceData, OverviewItem, getResourceList } from '@console/shared';
 
 const asOverviewGroups = (keyedItems: { [name: string]: OverviewItem[] }): OverviewGroup[] => {
   const compareGroups = (a: OverviewGroup, b: OverviewGroup) => {
